@@ -3,7 +3,9 @@ from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # Discord bot token
 TOKEN = os.environ.get('TOKEN')
 
